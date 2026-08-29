@@ -3,7 +3,7 @@ name: Publish source tree
 on:
   push:
     paths:
-      - EYRAX-Apothic-Animals-source-upload.zip
+      - EYRAX-Apothic-Animals-source-upload.b64
 
 permissions:
   contents: write
@@ -17,11 +17,12 @@ jobs:
 
       - name: Unpack source
         run: |
+          base64 --decode EYRAX-Apothic-Animals-source-upload.b64 > /tmp/eyrax-source.zip
           mkdir source-stage
-          unzip -q EYRAX-Apothic-Animals-source-upload.zip -d source-stage
+          unzip -q /tmp/eyrax-source.zip -d source-stage
           cp -a source-stage/. .
           rm -rf source-stage
-          rm EYRAX-Apothic-Animals-source-upload.zip
+          rm EYRAX-Apothic-Animals-source-upload.b64
           rm .github/workflows/bootstrap-source.yml
 
       - name: Commit source tree
