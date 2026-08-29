@@ -1,0 +1,11 @@
+{
+  "type": "apotheosis:extra_gem_bonus",
+  "gem": "apotheosis:core/combatant",
+  "bonuses": [{
+    "type": "apotheosis:attribute",
+    "gem_class": {"key": "animal_armor", "types": ["eyrax_apothic_animals:animal_armor"]},
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add_value",
+    "values": {"cracked": 0.20, "chipped": 0.40, "flawed": 0.65, "normal": 0.90, "flawless": 1.25, "perfect": 1.75}
+  }]
+}

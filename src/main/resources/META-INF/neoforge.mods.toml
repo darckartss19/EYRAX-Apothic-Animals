@@ -1,0 +1,49 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+
+[[mods]]
+modId="eyrax_apothic_animals"
+version="1.1.0"
+displayName="EYRAX Apothic Animals"
+authors="EYRAX"
+description='''
+Integrates Critter Armory animal armor with the Apotheosis affix system.
+Adds balanced animal-specific affixes for defense, health, mobility and combat.
+Adds visible, functional animal-armor bonuses to Apotheosis gems.
+'''
+
+[[dependencies.eyrax_apothic_animals]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.eyrax_apothic_animals]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.248,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.eyrax_apothic_animals]]
+modId="apotheosis"
+type="required"
+versionRange="[8.7.0,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.eyrax_apothic_animals]]
+modId="apothic_attributes"
+type="required"
+versionRange="[2.10.0,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.eyrax_apothic_animals]]
+modId="critterarmory"
+type="required"
+versionRange="[1.21.1-0.6.5-neoforge,)"
+ordering="AFTER"
+side="BOTH"

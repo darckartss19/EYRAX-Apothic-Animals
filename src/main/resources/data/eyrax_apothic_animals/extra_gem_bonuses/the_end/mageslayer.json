@@ -1,0 +1,11 @@
+{
+  "type": "apotheosis:extra_gem_bonus",
+  "gem": "apotheosis:the_end/mageslayer",
+  "bonuses": [{
+    "type": "apotheosis:attribute",
+    "gem_class": {"key": "animal_armor", "types": ["eyrax_apothic_animals:animal_armor"]},
+    "attribute": "apothic_attributes:prot_shred",
+    "operation": "add_value",
+    "values": {"normal": 0.10, "flawless": 0.18, "perfect": 0.25}
+  }]
+}

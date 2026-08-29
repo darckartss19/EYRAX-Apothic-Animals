@@ -1,0 +1,11 @@
+{
+  "type": "apotheosis:extra_gem_bonus",
+  "gem": "apotheosis:the_nether/blood_lord",
+  "bonuses": [{
+    "type": "apotheosis:attribute",
+    "gem_class": {"key": "animal_armor", "types": ["eyrax_apothic_animals:animal_armor"]},
+    "attribute": "apothic_attributes:life_steal",
+    "operation": "add_value",
+    "values": {"flawed": 0.03, "normal": 0.05, "flawless": 0.07, "perfect": 0.10}
+  }]
+}

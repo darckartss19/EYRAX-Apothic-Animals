@@ -1,0 +1,21 @@
+{
+  "loot_category.eyrax_apothic_animals.animal_armor": "Animal Armor",
+  "loot_category.eyrax_apothic_animals.animal_armor.plural": "Animal Armor",
+  "gem_class.animal_armor": "Animal Armor",
+  "affix.eyrax_apothic_animals:animal/attribute/iron_plumage": "Iron-Plumed",
+  "affix.eyrax_apothic_animals:animal/attribute/iron_plumage.suffix": "of the Armored Rooster",
+  "affix.eyrax_apothic_animals:animal/attribute/steel_down": "Steel-Downed",
+  "affix.eyrax_apothic_animals:animal/attribute/steel_down.suffix": "of the Steel Coop",
+  "affix.eyrax_apothic_animals:animal/attribute/corral_heart": "Coop-Hearted",
+  "affix.eyrax_apothic_animals:animal/attribute/corral_heart.suffix": "of Seven Lives",
+  "affix.eyrax_apothic_animals:animal/attribute/quick_feet": "Light-Footed",
+  "affix.eyrax_apothic_animals:animal/attribute/quick_feet.suffix": "of the Road Runner",
+  "affix.eyrax_apothic_animals:animal/attribute/planted": "Well-Planted",
+  "affix.eyrax_apothic_animals:animal/attribute/planted.suffix": "of the Unmoved",
+  "affix.eyrax_apothic_animals:animal/attribute/war_spur": "War-Spurred",
+  "affix.eyrax_apothic_animals:animal/attribute/war_spur.suffix": "of the Champion Rooster",
+  "affix.eyrax_apothic_animals:animal/dmg_reduction/feather_landing": "Feather-Landed",
+  "affix.eyrax_apothic_animals:animal/dmg_reduction/feather_landing.suffix": "of the Safe Landing",
+  "affix.eyrax_apothic_animals:animal/dmg_reduction/blast_trained": "Blast-Trained",
+  "affix.eyrax_apothic_animals:animal/dmg_reduction/blast_trained.suffix": "of the Fearless Hiss"
+}

@@ -1,0 +1,18 @@
+{
+  "type": "apotheosis:damage_reduction",
+  "categories": ["eyrax_apothic_animals:animal_armor"],
+  "damage_type": "fall",
+  "definition": {
+    "affix_type": "basic_effect",
+    "exclusive_set": [],
+    "weights": {"quality": 0.1, "weight": 14}
+  },
+  "values": {
+    "apotheosis:common": {"min": 0.08, "max": 0.15, "step": 0.01},
+    "apotheosis:uncommon": {"min": 0.12, "max": 0.22, "step": 0.01},
+    "apotheosis:rare": {"min": 0.18, "max": 0.3, "step": 0.01},
+    "apotheosis:epic": {"min": 0.25, "max": 0.42, "step": 0.01},
+    "apotheosis:mythic": {"min": 0.35, "max": 0.55, "step": 0.01}
+  }
+}
+

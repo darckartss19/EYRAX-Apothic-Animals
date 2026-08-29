@@ -1,0 +1,13 @@
+{
+  "type": "apotheosis:extra_gem_bonus",
+  "gem": "apotheosis:overworld/verdant_ruin",
+  "bonuses": [{
+    "type": "apotheosis:multi_attribute",
+    "gem_class": {"key": "animal_armor", "types": ["eyrax_apothic_animals:animal_armor"]},
+    "desc": "bonus.apotheosis:multi_attr.desc.and",
+    "modifiers": [
+      {"attribute": "apothic_attributes:healing_received", "operation": "add_multiplied_base", "values": {"flawed": 0.08, "normal": 0.12, "flawless": 0.18, "perfect": 0.25}},
+      {"attribute": "minecraft:generic.knockback_resistance", "operation": "add_value", "values": {"flawed": 0.05, "normal": 0.08, "flawless": 0.12, "perfect": 0.16}}
+    ]
+  }]
+}

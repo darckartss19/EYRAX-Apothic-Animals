@@ -1,0 +1,13 @@
+{
+  "type": "apotheosis:extra_gem_bonus",
+  "gem": "apotheosis:the_nether/molten_breach",
+  "bonuses": [{
+    "type": "apotheosis:multi_attribute",
+    "gem_class": {"key": "animal_armor", "types": ["eyrax_apothic_animals:animal_armor"]},
+    "desc": "bonus.apotheosis:multi_attr.desc.and",
+    "modifiers": [
+      {"attribute": "minecraft:generic.attack_damage", "operation": "add_multiplied_base", "values": {"flawed": 0.04, "normal": 0.06, "flawless": 0.09, "perfect": 0.12}},
+      {"attribute": "apothic_attributes:armor_pierce", "operation": "add_value", "values": {"flawed": 1.5, "normal": 2.5, "flawless": 3.5, "perfect": 5.0}}
+    ]
+  }]
+}

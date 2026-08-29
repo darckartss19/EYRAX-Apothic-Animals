@@ -1,0 +1,13 @@
+{
+  "type": "apotheosis:extra_gem_bonus",
+  "gem": "apotheosis:overworld/earth",
+  "bonuses": [{
+    "type": "apotheosis:multi_attribute",
+    "gem_class": {"key": "animal_armor", "types": ["eyrax_apothic_animals:animal_armor"]},
+    "desc": "bonus.apotheosis:multi_attr.desc.and",
+    "modifiers": [
+      {"attribute": "minecraft:generic.armor", "operation": "add_value", "values": {"flawed": 1.5, "normal": 2.25, "flawless": 3.25, "perfect": 4.5}},
+      {"attribute": "minecraft:generic.armor_toughness", "operation": "add_value", "values": {"flawed": 0.5, "normal": 0.75, "flawless": 1.0, "perfect": 1.5}}
+    ]
+  }]
+}

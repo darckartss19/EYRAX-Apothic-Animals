@@ -1,0 +1,29 @@
+# Gradle
+.gradle/
+build/
+
+# Development runs
+run/
+runs/
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+
+# Operating systems
+.DS_Store
+Thumbs.db
+
+# Logs and crash reports
+*.log
+crash-reports/
+logs/
+
+# Local mod dependencies
+run/mods/

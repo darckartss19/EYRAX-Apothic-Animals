@@ -1,0 +1,11 @@
+{
+  "type": "apotheosis:extra_gem_bonus",
+  "gem": "apotheosis:the_nether/inferno",
+  "bonuses": [{
+    "type": "apotheosis:attribute",
+    "gem_class": {"key": "animal_armor", "types": ["eyrax_apothic_animals:animal_armor"]},
+    "attribute": "apothic_attributes:fire_damage",
+    "operation": "add_value",
+    "values": {"flawed": 0.75, "normal": 1.25, "flawless": 2.0, "perfect": 3.0}
+  }]
+}

@@ -1,0 +1,21 @@
+{
+  "loot_category.eyrax_apothic_animals.animal_armor": "Armadura animal",
+  "loot_category.eyrax_apothic_animals.animal_armor.plural": "Armaduras animales",
+  "gem_class.animal_armor": "Armadura animal",
+  "affix.eyrax_apothic_animals:animal/attribute/iron_plumage": "Plumaje de hierro",
+  "affix.eyrax_apothic_animals:animal/attribute/iron_plumage.suffix": "del gallo blindado",
+  "affix.eyrax_apothic_animals:animal/attribute/steel_down": "Plumón de acero",
+  "affix.eyrax_apothic_animals:animal/attribute/steel_down.suffix": "del corral de acero",
+  "affix.eyrax_apothic_animals:animal/attribute/corral_heart": "Corazón de corral",
+  "affix.eyrax_apothic_animals:animal/attribute/corral_heart.suffix": "de las siete vidas",
+  "affix.eyrax_apothic_animals:animal/attribute/quick_feet": "Patas ligeras",
+  "affix.eyrax_apothic_animals:animal/attribute/quick_feet.suffix": "del motoconcho",
+  "affix.eyrax_apothic_animals:animal/attribute/planted": "Bien plantado",
+  "affix.eyrax_apothic_animals:animal/attribute/planted.suffix": "que no coge esa",
+  "affix.eyrax_apothic_animals:animal/attribute/war_spur": "Espolón de guerra",
+  "affix.eyrax_apothic_animals:animal/attribute/war_spur.suffix": "del manilo campeón",
+  "affix.eyrax_apothic_animals:animal/dmg_reduction/feather_landing": "Aterrizaje con plumas",
+  "affix.eyrax_apothic_animals:animal/dmg_reduction/feather_landing.suffix": "de la 27 con frenos",
+  "affix.eyrax_apothic_animals:animal/dmg_reduction/blast_trained": "Entrenado contra explosiones",
+  "affix.eyrax_apothic_animals:animal/dmg_reduction/blast_trained.suffix": "del pss que no asusta"
+}

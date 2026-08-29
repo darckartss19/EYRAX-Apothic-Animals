@@ -1,0 +1,11 @@
+{
+  "type": "apotheosis:extra_gem_bonus",
+  "gem": "apotheosis:core/samurai",
+  "bonuses": [{
+    "type": "apotheosis:attribute",
+    "gem_class": {"key": "animal_armor", "types": ["eyrax_apothic_animals:animal_armor"]},
+    "attribute": "apothic_attributes:crit_chance",
+    "operation": "add_value",
+    "values": {"cracked": 0.02, "chipped": 0.04, "flawed": 0.06, "normal": 0.08, "flawless": 0.10, "perfect": 0.12}
+  }]
+}

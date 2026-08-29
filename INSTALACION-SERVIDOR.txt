@@ -1,0 +1,44 @@
+EYRAX APOTHIC ANIMALS 1.1.0
+===========================
+
+IMPORTANTE
+----------
+Este complemento pertenece a la futura actualización amplia de EYRAX Roosters
+& Roots que incluirá Apotheosis. No lo instales todavía en la versión estable
+si aún no has agregado todas sus dependencias al cliente y al servidor.
+
+ARCHIVO PRINCIPAL
+-----------------
+EYRAX-Apothic-Animals-1.1.0.jar
+
+REQUISITOS
+----------
+- Minecraft Java 1.21.1
+- NeoForge 21.1.248 o posterior compatible con 1.21.1
+- Apotheosis 8.7.0
+- Apothic Attributes 2.10.0
+- Critter Armory 1.21.1-0.6.5-neoforge
+- Las dependencias normales requeridas por Apotheosis
+
+INSTALACIÓN
+-----------
+1. Detén el servidor de Minecraft.
+
+2. Copia `EYRAX-Apothic-Animals-1.1.0.jar` a la carpeta `mods` de la
+   instalación del servidor.
+
+3. Instala el mismo JAR y sus dependencias en el perfil de cada cliente.
+
+4. Inicia el servidor y comprueba que no existan errores de carga de mods o
+   datos.
+
+La confirmación correcta debe indicar que se reconocieron todas las armaduras
+animales etiquetadas y las 20 bonificaciones de gema. El complemento no añade generación de mundo, por lo que
+por sí solo no requiere borrar chunks ni regenerar el mapa.
+
+DESINSTALACIÓN
+--------------
+Retira primero cualquier afijo de EYRAX que quieras conservar de las armaduras.
+Después detén el servidor y los clientes y elimina el JAR de ambos lados. Las armaduras
+seguirán perteneciendo a Critter Armory, pero dejarán de ser reforjables con los
+afijos exclusivos de este complemento.

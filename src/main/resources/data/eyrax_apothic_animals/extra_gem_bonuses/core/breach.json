@@ -1,0 +1,11 @@
+{
+  "type": "apotheosis:extra_gem_bonus",
+  "gem": "apotheosis:core/breach",
+  "bonuses": [{
+    "type": "apotheosis:attribute",
+    "gem_class": {"key": "animal_armor", "types": ["eyrax_apothic_animals:animal_armor"]},
+    "attribute": "apothic_attributes:armor_pierce",
+    "operation": "add_value",
+    "values": {"cracked": 0.5, "chipped": 1.0, "flawed": 1.5, "normal": 2.0, "flawless": 3.0, "perfect": 4.0}
+  }]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "apotheosis:extra_gem_bonus",
+  "gem": "apotheosis:core/lunar",
+  "bonuses": [{
+    "type": "apotheosis:attribute",
+    "gem_class": {"key": "animal_armor", "types": ["eyrax_apothic_animals:animal_armor"]},
+    "attribute": "apothic_attributes:cold_damage",
+    "operation": "add_value",
+    "values": {"cracked": 0.25, "chipped": 0.50, "flawed": 0.75, "normal": 1.0, "flawless": 1.5, "perfect": 2.0}
+  }]
+}

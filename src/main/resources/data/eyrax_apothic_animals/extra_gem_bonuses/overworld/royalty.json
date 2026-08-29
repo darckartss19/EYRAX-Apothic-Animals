@@ -1,0 +1,15 @@
+{
+  "type": "apotheosis:extra_gem_bonus",
+  "gem": "apotheosis:overworld/royalty",
+  "bonuses": [{
+    "type": "apotheosis:multi_attribute",
+    "gem_class": {"key": "animal_armor", "types": ["eyrax_apothic_animals:animal_armor"]},
+    "desc": "bonus.apotheosis:multi_attr.desc.and",
+    "modifiers": [
+      {"attribute": "minecraft:generic.max_health", "operation": "add_multiplied_total", "values": {"flawed": 0.05, "normal": 0.075, "flawless": 0.10, "perfect": 0.15}},
+      {"attribute": "minecraft:generic.armor", "operation": "add_multiplied_total", "values": {"flawed": 0.05, "normal": 0.075, "flawless": 0.10, "perfect": 0.15}},
+      {"attribute": "minecraft:generic.movement_speed", "operation": "add_multiplied_total", "values": {"flawed": 0.025, "normal": 0.04, "flawless": 0.06, "perfect": 0.08}},
+      {"attribute": "minecraft:generic.attack_damage", "operation": "add_multiplied_total", "values": {"flawed": 0.05, "normal": 0.075, "flawless": 0.10, "perfect": 0.15}}
+    ]
+  }]
+}

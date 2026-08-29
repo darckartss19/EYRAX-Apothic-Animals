@@ -1,0 +1,11 @@
+{
+  "type": "apotheosis:extra_gem_bonus",
+  "gem": "apotheosis:core/guardian",
+  "bonuses": [{
+    "type": "apotheosis:attribute",
+    "gem_class": {"key": "animal_armor", "types": ["eyrax_apothic_animals:animal_armor"]},
+    "attribute": "minecraft:generic.armor",
+    "operation": "add_value",
+    "values": {"cracked": 0.5, "chipped": 1.0, "flawed": 1.5, "normal": 2.5, "flawless": 3.5, "perfect": 5.0}
+  }]
+}

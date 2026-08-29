@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "#critterarmory:chicken_armor",
+    "#critterarmory:wolf_armor",
+    "#critterarmory:cat_armor",
+    "#critterarmory:cow_armor",
+    "#critterarmory:pig_armor",
+    "#critterarmory:sheep_armor",
+    "#critterarmory:horse_armor"
+  ]
+}
+
