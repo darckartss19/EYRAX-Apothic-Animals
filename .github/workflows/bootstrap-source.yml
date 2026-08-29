@@ -20,10 +20,10 @@ jobs:
           base64 --decode EYRAX-Apothic-Animals-source-upload.b64 > /tmp/eyrax-source.zip
           mkdir source-stage
           unzip -q /tmp/eyrax-source.zip -d source-stage
+          rm -rf source-stage/.github
           cp -a source-stage/. .
           rm -rf source-stage
           rm EYRAX-Apothic-Animals-source-upload.b64
-          rm .github/workflows/bootstrap-source.yml
 
       - name: Commit source tree
         run: |
